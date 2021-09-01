@@ -51,6 +51,7 @@
                             <th>{{__('Name') }}</th>
                             <th>{{__('User Name') }}</th>
                             <th>{{__('E-Mail') }}</th>
+                            <th>{{__('Provider\'s Locations') }}</th>
                             <th>{{__('Added By Admin') }}</th>
                             <th>{{__('Created_at') }}</th>
                             @if (auth()->user()->hasRole(['super_admin', 'admin']))
